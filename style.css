@@ -161,13 +161,14 @@ section:nth-child(even) {
      width: 100%;
 }
 
-language__img {
+.language__img {
     width: 100%;
     max-width: 100px;
+    transition: all 300ms;
 }
 
 .language {
-    width: 25%;
+    width: 20%;
 }
 
 .language__img--wrapper {
@@ -189,4 +190,8 @@ language__img {
  filter: brightness(80%); 
  opacity: 0.86;
  transform: scale(0.9);
+}
+
+.language__list {
+  gap: 32px;
 }
